@@ -4,7 +4,7 @@
     --text: #EDEDED;
     --subtext: #A1A1A1;
     --overlay: #7D7D7D;
-    --sky: rgba(30, 68, 90, 0.808);
+    --sky: rgba(40, 88, 116, 0.808);
 }
 
 * {
@@ -147,6 +147,11 @@ body {
     font-weight: 550;
     font-size: 0.9rem;
     font-style: italic;
+}
+
+#epic-footer > p > a {
+    color: var(--sky);
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 700px) {
