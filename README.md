@@ -1,8 +1,6 @@
 # tic-tac-toe game following the course of the odin project
 
-### this game is impossible, don't try to beat the bot, the bot uses the minimax algorithm
-
-#
+this game is impossible, don't try to beat the bot, the bot uses the minimax algorithm
 
 ### live:
 - [play](https://fn-cafeina.github.io/XO/)
