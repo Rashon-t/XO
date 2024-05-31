@@ -62,9 +62,6 @@ body {
     color: rgba(125, 125, 125, 0.8);
     cursor: pointer;
     user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 
 
@@ -164,7 +161,6 @@ body {
     }
 
     #score {
-        gap: 10px;
         width: 70%;
     }
 
