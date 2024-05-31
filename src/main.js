@@ -28,8 +28,12 @@ const WINNING_PATTERNS = [
     [0, 4, 8], [2, 4, 6]
 ];
 
-App.divs.forEach((div, index) => {
-    div.addEventListener('click', () => !Game.gameLocked && handlePlayerMove(div, index));
+App.grids.addEventListener('click', (event) => {
+    const clickedElement = event.target;
+    const clickedIndex = Array.from(App.divs).indexOf(clickedElement);
+    if (!Game.gameLocked && clickedElement.tagName === 'DIV') {
+        handlePlayerMove(clickedElement, clickedIndex);
+    }
 });
 
 App.restartButton.addEventListener('click', resetGame);
